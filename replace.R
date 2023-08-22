@@ -1,0 +1,5 @@
+str=readline(prompt="enter string: ")
+oldchar=as.character(readline(prompt="enter old character: "))
+newchar=as.character(readline(prompt="enter new character: "))
+newstr=chartr(oldchar,newchar,str)
+cat(newstr)

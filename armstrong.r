@@ -1,5 +1,5 @@
-a=10
-b=10000
+a=as.integer(readline(prompt="lower bound:"))
+b=as.integer(readline(prompt="upper bound:"))
 cat("armstrong numbers are \n")
 while(a<=b)
   {
